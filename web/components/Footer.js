@@ -11,6 +11,7 @@ function Footer(props) {
   return (
     <div className={styles.root}>
       <nav>
+        <p>Hei</p>
         <ul className={styles.items}>
           {navItems &&
             navItems.map((item) => {
